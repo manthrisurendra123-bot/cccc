@@ -4,70 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 1 | Welcome Love</title>
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- GSAP Animation Library -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-      defer
-    ></script>
-
-    <!-- Custom Script -->
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="assets/script.js" defer></script>
   </head>
-
   <body data-page="page1">
-    <!-- Floating hearts animation -->
     <div class="floating-hearts" data-floating-hearts></div>
-
-    <!-- Balloon burst animation -->
     <div class="balloon-burst" data-balloon-burst></div>
-
     <main class="glass-card">
       <p class="page-note" data-zoom-in>10/12/2025</p>
-
       <h1 data-zoom-in>Hi... thanks for coming here maa ❤️</h1>
-
       <p data-zoom-in>
-        NA BUJI, CHINNA, PEDHA DARLING BABY, BANGARAM, BANGALAM, BABES, KANNA,
-        REY, OSEY, MY LIFE, SPECIALLY MY WIFE 💖, MY SOUL, MY HEADACHE 😅 ,
-        SPECIALLY MY LOVE AND MY...
+        NA BUJI,CHINNA,PEDHA DARLING BABY ,BANGRAM,BANGALAM,BABES ,KANNA,REY,OSEY,MY LIFE , SPECIALLY MY WIFE 💖,MY SOUL , MY HEADACHE 😅 ,SPECIALLY MY LOVE AND MY
       </p>
-
       <div class="media-wrap">
-        <video
-          class="hero-video"
-          autoplay
-          loop
-          muted
-          playsinline
-          preload="auto"
-          data-auto-sound
-        >
+        <video class="hero-video" autoplay loop reload="auto" data-auto-sound>
           <source src="page1.mp4.mp4" type="video/mp4" />
-          Your browser does not support video. Replace this with your dreamy
-          clip. 💖
+          Your browser does not support video. Replace this with your dreamy clip. 💖
         </video>
       </div>
 
-      <!-- Main Button -->
-      <a class="btn" href="page2.html" data-balloon-trigger>
-        Hello madam ekkada click here 😍💫
-      </a>
+      <a class="btn" href="page2.html" data-balloon-trigger>Hello madam ekkada click here😍💫</a>
 
-      <!-- Background Music -->
-      <audio
-        id="bg-music"
-        src="https://cdn.pixabay.com/download/audio/2022/10/25/audio_13f3bd2b3135.mp3?filename=gentle-piano-ambient-124458.mp3"
-        autoplay
-        loop
-        muted
-      ></audio>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="page2.html"></a>
+      </nav>
+
+      <audio id="bg-music" src="https://cdn.pixabay.com/download/audio/2022/10/25/audio_13f3bd2b3135.mp3?filename=gentle-piano-ambient-124458.mp3" autoplay loop muted></audio>
     </main>
   </body>
 </html>
+
 
 
 
